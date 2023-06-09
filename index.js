@@ -6,7 +6,7 @@ const Images = {
     VERIFIED: 4
 }
 
-const video = document is.createElement("video");
+const video = document.createElement("video");
 const qrResult = document.getElementById("qr-result");
 const outputData = document.getElementById("outputData");
 const canvasElement = document.getElementById("qr-canvas");
