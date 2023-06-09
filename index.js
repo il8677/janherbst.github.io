@@ -97,6 +97,7 @@ qrcode.callback = (res) => {
         console.log(res)
         if(res == "GOTOVERIFIED"){
             moveScene(Images.VERIFIED);
+            verified.play();
         }else if (res == "GOTOOVERWRITTEN"){
             moveScene(Images.OVERWRITTEN);
         }else if (res == "GOTOMENU"){
